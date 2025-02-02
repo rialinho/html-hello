@@ -1,0 +1,52 @@
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+.titulo {display:flex;
+    justify-content:center;
+        text-align:center;
+    background-color: white;}
+
+.origin {display:flex ;
+        flex-direction: column;
+        align-items:center;
+        background-color: white;   
+    }
+
+
+        .div0 {display: flex; 
+            flex-direction: column;
+            background-color: white;
+            width:400px;
+        
+        }
+        .div1{ display: flex;
+    justify-content: space-between;
+    background-color: white}
+    
+    .imaxe{
+        width: 100%;
+        height: 100%; /* Tamaño fijo para todas las imágenes */
+        object-fit: contain;
+        overflow: hidden;
+        
+      }
+    .div3 {text-align:left;
+        background-color: white}
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ajusta al tamaño disponible */
+        height: 100%; /* Altura definida */
+        background-color: #f0f0f0; /* Color de fondo para visualizar mejor */
+        overflow: hidden; /* Evita desbordamiento */
+    }
+
+      .div2-2 { font-size: 0.9em; 
+        color: gray; 
+        align-self: center;
+        background-color: white;}
+
+   .div2-1 {background-color: white;}
